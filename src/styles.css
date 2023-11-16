@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mdl-textfield {
+    width: 100%;
+}
+
+.mdl-button {
+    width: 100%;
+    margin-top: 20px;
+    color:#FF0000;
+}
+
+.info-message {
+    margin-top: 20px;
+    color: #555;
+}
+
+#additionalReasonContainer {
+    display: none;
+}
